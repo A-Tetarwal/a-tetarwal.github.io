@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    color: rgba(255, 255, 238, 0.949);
+}
+
+/* Social buttons hover effect */
+.social-btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
