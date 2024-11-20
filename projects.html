@@ -1,75 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashish Tetarwal</title>
+    <title>Ashish Tetarwal - Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="projects.css">
 </head>
-<body>
-    <!-- projects -->
-    <div id="page2">
-        <div id="nav">
-            <nav>
-                <ul>
-                    <li><a href="index.html"><button id="homeButton">Home</button></a></li>
-                    <li><a href="index.html#aboutMe"><button>About</button></a></li>
-                    <li><a href="projects.html"><button id="projectsBtn">Projects</button></a></li>
-                    <li><a href="https://github.com/A-Tetarwal" target="_blank"><button>GitHub</button></a></li>
-                </ul>
-            </nav>
-        </div>
-        <h1>Projects</h1>
-        <h4>Original</h4>
-        <div id="bigproject">
-            <div id="projects">
-                <div id="p1">
-                    <h6>2023</h6>
-                    <strong>National Health Portal</strong> 
-                    <small>A web project to enhance healthcare access</small> <br>
-                    <div class="linkBtn">
-                        <a href="https://a-tetarwal.github.io/Uni-Health-Portal/">Demo</a>
-                        <a href="https://github.com/A-Tetarwal/Uni-Health-Portal">Source</a>
+
+<body class="min-h-screen">
+    <!-- Navigation -->
+    <nav class="px-4 sm:px-6 lg:px-8  top-0 z-10 bg-black">
+        <ul class="flex flex-wrap gap-4 sm:gap-10 py-4 mx-auto max-w-7xl justify-center">
+            <li><a href="projects.html"><button
+                        class="bg-[rgba(255,255,238,0.949)] text-black transition-colors px-4 py-2 rounded-full bg-[rgb(29,29,29)]">Projects</button></a>
+            </li>
+            <li><button
+                    class="hover:bg-[rgba(255,255,238,0.949)] hover:text-black transition-colors px-4 py-2 rounded-full bg-[rgb(29,29,29)]"
+                    id="homeButton">Experience</button></li>
+            <li><a href="https://tetarwal.vercel.app"><button
+                        class="hover:bg-[rgba(255,255,238,0.949)] hover:text-black transition-colors px-4 py-2 rounded-full bg-[rgb(29,29,29)]">Poetry</button></a>
+            </li>
+            <li><a href="#Connect"><button
+                        class="hover:bg-[rgba(255,255,238,0.949)] hover:text-black transition-colors px-4 py-2 rounded-full bg-[rgb(29,29,29)]">Connect</button></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Projects Section -->
+    <main class="px-4 sm:px-6 lg:px-8 py-8">
+        <h1 class="text-3xl sm:text-4xl text-center mb-8">Projects</h1>
+    
+        <div class="flex flex-wrap gap-6">
+            <!-- Project 1 -->
+            <div class="project-card bg-[rgb(29,29,29)] rounded-lg p-6 text-center flex flex-col sm:flex-row items-center justify-between h-auto sm:h-[300px] w-full max-w-4xl mx-auto gap-6">
+                <div class="h-64 sm:h-full w-full sm:w-1/3 flex items-center justify-center overflow-hidden">
+                    <img src="nhp.png" alt="National Health Portal" class="w-32 sm:w-full object-cover object-top rounded-lg max-h-full">
+                </div>
+                <div class="w-full sm:w-2/3 text-center sm:text-left">
+                    <h6 class="text-sm mb-2 text-gray-400">2023</h6>
+                    <strong class="block text-xl mb-2 text-white">National Health Portal</strong>
+                    <small class="block mb-4 text-gray-300">A web project to enhance healthcare access</small>
+                    <div class="flex justify-center sm:justify-start gap-4">
+                        <a href="https://a-tetarwal.github.io/Uni-Health-Portal/" class="bg-black text-[rgba(255,255,238,0.949)] px-4 py-2 rounded-full border-2 border-[rgba(255,255,238,0.949)] hover:bg-[rgba(255,255,238,0.949)] hover:text-black transition-colors">Demo</a>
+                        <a href="https://github.com/A-Tetarwal/Uni-Health-Portal" class="bg-black text-[rgba(255,255,238,0.949)] px-4 py-2 rounded-full border-2 border-[rgba(255,255,238,0.949)] hover:bg-[rgba(255,255,238,0.949)] hover:text-black transition-colors">Source</a>
                     </div>
                 </div>
-                <div id="p2">
-                    <h6>2023-24</h6>
-                    <strong>The Yard Project</strong>
-                    <small>Yard: Organizing the Unorganized Junk Collection Sector</small> <br>
-                    <div class="linkBtn">
-                        <a href="https://a-tetarwal.github.io/The-Yard-Project/">Demo</a>
-                        <a href="https://github.com/A-Tetarwal/The-Yard-Project">Source</a>    
+            </div>
+    
+            <!-- Project 2 -->
+            <div class="project-card bg-[rgb(29,29,29)] rounded-lg p-6 text-center flex flex-col sm:flex-row items-center justify-between h-auto sm:h-[300px] w-full max-w-4xl mx-auto gap-6">
+                <div class="h-64 sm:h-full w-full sm:w-1/3 flex items-center justify-center overflow-hidden">
+                    <img src="GCS1.png" alt="The Yard Project" class="w-32 sm:w-full object-cover object-top rounded-lg max-h-full">
+                </div>
+                <div class="w-full sm:w-2/3 text-center sm:text-left">
+                    <h6 class="text-sm mb-2 text-gray-400">2023-24</h6>
+                    <strong class="block text-xl mb-2 text-white">The Yard Project</strong>
+                    <small class="block mb-4 text-gray-300">Yard: Organizing the Unorganized Junk Collection Sector</small>
+                    <div class="flex justify-center sm:justify-start gap-4">
+                        <a href="https://a-tetarwal.github.io/The-Yard-Project/" class="bg-black text-[rgba(255,255,238,0.949)] px-4 py-2 rounded-full border-2 border-[rgba(255,255,238,0.949)] hover:bg-[rgba(255,255,238,0.949)] hover:text-black transition-colors">Demo</a>
+                        <a href="https://github.com/A-Tetarwal/The-Yard-Project" class="bg-black text-[rgba(255,255,238,0.949)] px-4 py-2 rounded-full border-2 border-[rgba(255,255,238,0.949)] hover:bg-[rgba(255,255,238,0.949)] hover:text-black transition-colors">Source</a>
                     </div>
                 </div>
-                <div id="p3">
-                    <h6>2024</h6>
-                    <strong>Ashish Tetarwal</strong>
-                    <small>The source of this website</small> <br>
-                    <div class="linkBtn">
-                        <a href="index.html">Demo</a>
-                        <a href="https://github.com/A-Tetarwal/Meethi-Supari">Source</a>    
+            </div>
+    
+            <!-- Project 3 -->
+            <div class="project-card bg-[rgb(29,29,29)] rounded-lg p-6 text-center flex flex-col sm:flex-row items-center justify-between h-auto sm:h-[300px] w-full max-w-4xl mx-auto gap-6">
+                <div class="h-64 sm:h-full w-full sm:w-1/3 flex items-center justify-center overflow-hidden">
+                    <img src="Designer.png" alt="Ashish Tetarwal Portfolio" class="w-32 sm:w-full object-cover rounded-lg max-h-full">
+                </div>
+                <div class="w-full sm:w-2/3 text-center sm:text-left">
+                    <h6 class="text-sm mb-2 text-gray-400">2024</h6>
+                    <strong class="block text-xl mb-2 text-white">Ashish Tetarwal</strong>
+                    <small class="block mb-4 text-gray-300">The source of this website</small>
+                    <div class="flex justify-center sm:justify-start gap-4">
+                        <a href="index.html" class="bg-black text-[rgba(255,255,238,0.949)] px-4 py-2 rounded-full border-2 border-[rgba(255,255,238,0.949)] hover:bg-[rgba(255,255,238,0.949)] hover:text-black transition-colors">Demo</a>
+                        <a href="https://github.com/A-Tetarwal/Meethi-Supari" class="bg-black text-[rgba(255,255,238,0.949)] px-4 py-2 rounded-full border-2 border-[rgba(255,255,238,0.949)] hover:bg-[rgba(255,255,238,0.949)] hover:text-black transition-colors">Source</a>
                     </div>
                 </div>
-                <div id="p4">
-                    <h6>2024</h6>
-                    <strong>Meethi Supari (coming soon)</strong>
-                    <small>The Poetry Page</small> <br>
-                    <div class="linkBtn">
-                        <a href="">Demo</a>
-                        <a href="">Source</a>    
+            </div>
+    
+            <!-- Project 4 -->
+            <div class="project-card bg-[rgb(29,29,29)] rounded-lg p-6 text-center flex flex-col sm:flex-row items-center justify-between h-auto sm:h-[300px] w-full max-w-4xl mx-auto gap-6">
+                <div class="h-64 sm:h-full w-full sm:w-1/3 flex items-center justify-center overflow-hidden">
+                    <img src="peacock.png" alt="Peacock Project" class="w-32 sm:w-full object-cover object-top rounded-full max-h-full">
+                </div>
+                <div class="w-full sm:w-2/3 text-center sm:text-left">
+                    <h6 class="text-sm mb-2 text-gray-400">2024</h6>
+                    <strong class="block text-xl mb-2 text-white">Peacock Project</strong>
+                    <small class="block mb-4 text-gray-300">The Portfolio Builder</small>
+                    <div class="flex justify-center sm:justify-start gap-4">
+                        <a href="#" class="bg-black text-[rgba(255,255,238,0.949)] px-4 py-2 rounded-full border-2 border-[rgba(255,255,238,0.949)] opacity-50 cursor-not-allowed">Demo</a>
+                        <a href="#" class="bg-black text-[rgba(255,255,238,0.949)] px-4 py-2 rounded-full border-2 border-[rgba(255,255,238,0.949)] opacity-50 cursor-not-allowed">Source</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="contact">
-        <ul>
-            <li><a href="https://www.linkedin.com/in/ashish-tetarwal-71368a250/"><button id="linkedin"><img src="LinkedIn.svg" alt="">LinkedIn</button></a></li>
-            <li><a href="mailto: andashishwill@gmail.com"><button id="gmail"><img src="gmail.svg" alt="">Mail<!--to: andashishwill@gmail.com--></button></a></li>
-            <li><a href="https://github.com/A-Tetarwal"><button id="github"><img src="github.svg" alt="">GitHub</button></a></li>
-            <li><a href="https://twitter.com/woofscode"><button id="twitter"><img src="twitterx.svg" alt="">Twitter</button></a></li>
+    </main>
+
+    <!-- Footer -->
+    <footer class=" bottom-0 w-full bg-black bg-opacity-90 py-4">
+        <ul class="flex flex-wrap justify-center items-center gap-3 sm:gap-4">
+            <li>
+                <a href="https://www.linkedin.com/in/ashish-tetarwal-71368a250/">
+                    <button
+                        class="social-btn flex items-center gap-1 bg-white text-black px-3 py-1.5 rounded-full hover:bg-gray-100">
+                        <img src="LinkedIn.svg" alt="LinkedIn" class="h-5 w-5">
+                        <span class="hidden sm:inline">LinkedIn</span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:andashishwill@gmail.com">
+                    <button
+                        class="social-btn flex items-center gap-1 bg-white text-black px-3 py-1.5 rounded-full hover:bg-gray-100">
+                        <img src="gmail.svg" alt="Email" class="h-5 w-5">
+                        <span class="hidden sm:inline">Mail</span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/A-Tetarwal">
+                    <button
+                        class="social-btn flex items-center gap-1 bg-white text-black px-3 py-1.5 rounded-full hover:bg-gray-100">
+                        <img src="github.svg" alt="GitHub" class="h-5 w-5">
+                        <span class="hidden sm:inline">GitHub</span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/woofscode">
+                    <button
+                        class="social-btn flex items-center gap-1 bg-white text-black px-3 py-1.5 rounded-full hover:bg-gray-100">
+                        <img src="twitterx.svg" alt="Twitter" class="h-5 w-5">
+                        <span class="hidden sm:inline">Twitter</span>
+                    </button>
+                </a>
+            </li>
         </ul>
-    </div>
+    </footer>
+
     <script src="projects.js"></script>
 </body>
+
 </html>
